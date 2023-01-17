@@ -42,4 +42,4 @@ tooltip_columns = st.multiselect("Columns for Tooltip", cols, default_display_co
 
 countries.explore(column_choice, cmap="Blues", m=m, tooltip=tooltip_columns)  
 
-st_folium(m)
+st_folium(m, returned_objects=[])
