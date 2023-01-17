@@ -1,0 +1,4 @@
+geopandas==0.12.2
+pyarrow==10.0.1
+streamlit==1.16.0
+streamlit-folium==0.10.0
